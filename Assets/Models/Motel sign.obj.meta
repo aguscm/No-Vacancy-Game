@@ -1,0 +1,977 @@
+fileFormatVersion: 2
+guid: 32c188850e62bd242ba8e890f8810593
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DOMOMat
+    second: {fileID: 2100000, guid: 06bb701fa6c91064487c8dfe7aab33ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: borde_letraMat
+    second: {fileID: 2100000, guid: 47cf8c1f16286d541be32658da4dd9f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: borde_numeroMat
+    second: {fileID: 2100000, guid: a0506f38b18242346bd4bfccc3014c27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cableMat
+    second: {fileID: 2100000, guid: 6dbdf676e0ecd0b4ea145167de9b3da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chapa_1Mat
+    second: {fileID: 2100000, guid: a7a4f9e726009c94eb39f6d11c3acf9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chapa_2Mat
+    second: {fileID: 2100000, guid: 8f91d786495b2e04a92f15b6db70461f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: estrucMat
+    second: {fileID: 2100000, guid: 356e54946c3fc974da25561c7b86e3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letra_blMat
+    second: {fileID: 2100000, guid: 6aa6972a14c7b8e4c884890c290e4f0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica157Mat
+    second: {fileID: 2100000, guid: 0e6e44a98bf15874fa76c08d00492adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica158Mat
+    second: {fileID: 2100000, guid: 8c7bf9274e059ab4eb4b02d443437f03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica159Mat
+    second: {fileID: 2100000, guid: c734f71c1905a0d408465370ae79cd22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica160Mat
+    second: {fileID: 2100000, guid: ca8a74f61f82e1f45b78ff2821e9ab36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica161Mat
+    second: {fileID: 2100000, guid: cf0fb9422742fef45a568728b75c8fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica162Mat
+    second: {fileID: 2100000, guid: 854ad9146cdee1b459ef4fcd0e8c5437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica163Mat
+    second: {fileID: 2100000, guid: 0ce7e76b9c0d7d74490c45c24c714f3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica164Mat
+    second: {fileID: 2100000, guid: c3ec3eea03602b74e9e6f121f88cb138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica165Mat
+    second: {fileID: 2100000, guid: e79d0b4decdb5404084895c20a823b68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica166Mat
+    second: {fileID: 2100000, guid: 617b29f76aee19d409408468f6d6526a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica167Mat
+    second: {fileID: 2100000, guid: 7ce1cb9590102b24dae0522f46058712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica168Mat
+    second: {fileID: 2100000, guid: 49bdeb99798fbbf4e9290c44c547cc80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica169Mat
+    second: {fileID: 2100000, guid: 57964f1b46be9ce4f97a680ad67672fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica170Mat
+    second: {fileID: 2100000, guid: aec1fe4d444900f4fa656e0a8fc6e48b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica171Mat
+    second: {fileID: 2100000, guid: de3d8a268f2348c4da9da3e33b136487, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica172Mat
+    second: {fileID: 2100000, guid: 6a67e07c40bf8104a970adb70cd27d23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica173Mat
+    second: {fileID: 2100000, guid: c40c1ea732b0b1a42a20af96aaf6483f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica174Mat
+    second: {fileID: 2100000, guid: 0099c460e2d396c4cab1909fe140e294, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica175Mat
+    second: {fileID: 2100000, guid: fd651a78804adf449a5ca8b7759ca59f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica176Mat
+    second: {fileID: 2100000, guid: 37f7e07998658ca429cc81da83bce0da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica177Mat
+    second: {fileID: 2100000, guid: 544f1a9b3331e7b40a470469c637ee0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica178Mat
+    second: {fileID: 2100000, guid: c616c7f30114ff0478b2f8b0adfe1d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica179Mat
+    second: {fileID: 2100000, guid: 80631ee34fce0dc41be98b601b8c09c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica180Mat
+    second: {fileID: 2100000, guid: 0f2dce1e450e3c145a1d97e124f6a162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica181Mat
+    second: {fileID: 2100000, guid: 37a17d2b3180d4f44af74c291ba2f741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica182Mat
+    second: {fileID: 2100000, guid: c9c65c34fc5f5e54baac9ba3964b9ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica183Mat
+    second: {fileID: 2100000, guid: 4cd6ad8b818d69347b89e494b476bab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica184Mat
+    second: {fileID: 2100000, guid: 75070eeaed97e9040b5160ced4cbad0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica185Mat
+    second: {fileID: 2100000, guid: d34fd1350392c8446bec5a35c76c3247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica186Mat
+    second: {fileID: 2100000, guid: 96eee7f1e7b3b2649bd6b52de578e964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica187Mat
+    second: {fileID: 2100000, guid: c3edd82964987f645bdcd9ca30afd8e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica188Mat
+    second: {fileID: 2100000, guid: 68df043bd6e90d84aad3ad8f4e557f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica189Mat
+    second: {fileID: 2100000, guid: 8d9d04132377ded4e874b008878c6972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica190Mat
+    second: {fileID: 2100000, guid: a50314d0ad8d3c5439db7329630b1d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica191Mat
+    second: {fileID: 2100000, guid: a4d6479defe9f14418c759bf39a283a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica192Mat
+    second: {fileID: 2100000, guid: 6376c9743b9891e44a441a82100db433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica193Mat
+    second: {fileID: 2100000, guid: c5a4ca4d54a3e9c42a797342ae47e20c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica194Mat
+    second: {fileID: 2100000, guid: fb677e959098dd346b07e77739f5550f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica195Mat
+    second: {fileID: 2100000, guid: 93a1017efe6d8c147880e0fd67cb5cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica196Mat
+    second: {fileID: 2100000, guid: bc185d90058a191448bd08b82d554417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica197Mat
+    second: {fileID: 2100000, guid: 208a1507e9831b64199ce14079b25665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica198Mat
+    second: {fileID: 2100000, guid: 01b51a8dbaec9c34885749272f637c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica199Mat
+    second: {fileID: 2100000, guid: 8bfeb116e89d08640a13090081c7f7ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica200Mat
+    second: {fileID: 2100000, guid: cfe777aecc08d324580094e60cf87081, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica201Mat
+    second: {fileID: 2100000, guid: aceaa8b44e9cfdd47be02a5b742a747d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica202Mat
+    second: {fileID: 2100000, guid: 185df4d7f401a904b98730a430da4137, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica203Mat
+    second: {fileID: 2100000, guid: f4726842cb657e14aa0c5025ad45093b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica204Mat
+    second: {fileID: 2100000, guid: 6cd2adb8469f6714a8b62d395ac001e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica205Mat
+    second: {fileID: 2100000, guid: bf45cd7c6590b99449743ec851b27f1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica206Mat
+    second: {fileID: 2100000, guid: 798d73911ec6e8d4d8b6d4e85fd8ad29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica207Mat
+    second: {fileID: 2100000, guid: d546b454a0d97d747b6e781eb1bcd297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica208Mat
+    second: {fileID: 2100000, guid: b59ae227baf494e48a8e1ac325b6e407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica209Mat
+    second: {fileID: 2100000, guid: f208591e7da18f744be8f570f1a7c89f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica210Mat
+    second: {fileID: 2100000, guid: d72a5af40476cd843b6cff5225cb5aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica211Mat
+    second: {fileID: 2100000, guid: 639dae9206680534bb5cdd6c0cef778b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica212Mat
+    second: {fileID: 2100000, guid: 82ab567867c36564e8917e796984644a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica213Mat
+    second: {fileID: 2100000, guid: aa5ec53012f0e5d459c1ee9fac3f2546, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica214Mat
+    second: {fileID: 2100000, guid: 98391deb187bb934b979202436fd3588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica215Mat
+    second: {fileID: 2100000, guid: 2d466e6de6ba4b645a288a79d11a4554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica216Mat
+    second: {fileID: 2100000, guid: 4cdae67a2df917b4f9184eff0176506b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica217Mat
+    second: {fileID: 2100000, guid: d335c9943677b69469fec64201e6f95d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica218Mat
+    second: {fileID: 2100000, guid: 1cae0e0a56c3e654299b8f18aff2470f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica219Mat
+    second: {fileID: 2100000, guid: 37919f953adf45e46a17f2f5aee1432e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica220Mat
+    second: {fileID: 2100000, guid: 62a49b37afcbe5b4297188f56b882712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica221Mat
+    second: {fileID: 2100000, guid: e65b9fdead2cf4f4db1cd5a996f6c7b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica222Mat
+    second: {fileID: 2100000, guid: 97af18f8875d95246a299d98479a13f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica223Mat
+    second: {fileID: 2100000, guid: c4568474a2428cc4b8eacd77f5ad4e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica224Mat
+    second: {fileID: 2100000, guid: f3b5177dd10c9db4bad46673a6abd87b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica225Mat
+    second: {fileID: 2100000, guid: 26cb2330512452845ac4bac5827be03e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica226Mat
+    second: {fileID: 2100000, guid: 591728756b1c21a47b11ea22af49a991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica227Mat
+    second: {fileID: 2100000, guid: c7cf8a448eecaf644a436ef545183cc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica228Mat
+    second: {fileID: 2100000, guid: 20ee1f095bde3df4bb59b1280bc97aac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica229Mat
+    second: {fileID: 2100000, guid: 0f970d96a4e93c34eb961be1f7386325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica230Mat
+    second: {fileID: 2100000, guid: d1fc135107244264a9efafb93d42186d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica231Mat
+    second: {fileID: 2100000, guid: 9b33c07ac4fb5ea41ba426cf26d92cf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica232Mat
+    second: {fileID: 2100000, guid: e87d7b2f30c10294d86773b70946b8e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica233Mat
+    second: {fileID: 2100000, guid: 8ffdeda5c9dd4f64aaa28568fd40988d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica234Mat
+    second: {fileID: 2100000, guid: 639fc90a553986b43b971bbf489e961f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica235Mat
+    second: {fileID: 2100000, guid: 6938349ed9e346945b2dd783c5c2fb78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica236Mat
+    second: {fileID: 2100000, guid: 91105858ef16ec543a1baa7c855e47e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica237Mat
+    second: {fileID: 2100000, guid: c4b7df8147de4be44afff7be7b226eca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica238Mat
+    second: {fileID: 2100000, guid: 883c6e29ed8dc1345b79593148a9eca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica239Mat
+    second: {fileID: 2100000, guid: 72e19d0c3e1144f43b51eae3a29636ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica240Mat
+    second: {fileID: 2100000, guid: 09cecd4531567c04ca48a056cb2678b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica241Mat
+    second: {fileID: 2100000, guid: fd849a6b1bcfbdd458d1eef236467105, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica242Mat
+    second: {fileID: 2100000, guid: cda9362b985cd0540a2493c0a0c0841c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica243Mat
+    second: {fileID: 2100000, guid: f600ff0af56bdc746a0895d421f696cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica244Mat
+    second: {fileID: 2100000, guid: a9ffaae9de7601b4fa537132cbfeee6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica245Mat
+    second: {fileID: 2100000, guid: 82104266fe082c24cbf1387b9aad1770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica246Mat
+    second: {fileID: 2100000, guid: 59f6a2d575c9ced49bf59364710c978e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica247Mat
+    second: {fileID: 2100000, guid: e89e36873e29947459728cf1140abd8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica248Mat
+    second: {fileID: 2100000, guid: 8b168e7ef8c6e764697a61f0dfaa744f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica249Mat
+    second: {fileID: 2100000, guid: 6387e861c42f5244d848af394db62a12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica250Mat
+    second: {fileID: 2100000, guid: 85be53c4d77e3c24eb2849a3936a7bce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica251Mat
+    second: {fileID: 2100000, guid: b5c757cace72e42429b1aebb7bf8b5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica252Mat
+    second: {fileID: 2100000, guid: 8c2730aec93376549bdf52cef9148acb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica253Mat
+    second: {fileID: 2100000, guid: 5f82fe3bd5f610d4d95c71d2b0e5fb43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica254Mat
+    second: {fileID: 2100000, guid: 9f4f3ab62eb5d1f4c996c3b686ab06f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica255Mat
+    second: {fileID: 2100000, guid: f53a3d5c4d36b1043a601f3519dbdb6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica256Mat
+    second: {fileID: 2100000, guid: 083818a504786b542a69d7dcdba1ef93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica257Mat
+    second: {fileID: 2100000, guid: a3cb4182d44d67a45aa71bb636d979e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica258Mat
+    second: {fileID: 2100000, guid: 591908081dc9ef148a5d6f64ba3ba3ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica259Mat
+    second: {fileID: 2100000, guid: f110761de9ed34c45a207ddd60718ba0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica260Mat
+    second: {fileID: 2100000, guid: 36d1dc768350f9c4480c7db4e90d0152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica261Mat
+    second: {fileID: 2100000, guid: db8b9009aad1a544ea63958af35ef9fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica262Mat
+    second: {fileID: 2100000, guid: d5d6b6b444e089040a31554bcf83c4f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica263Mat
+    second: {fileID: 2100000, guid: be8f366cb1c6b6c47b045bba3766f6c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica264Mat
+    second: {fileID: 2100000, guid: 79688659b5504ae4aa65b58f10fd799f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica265Mat
+    second: {fileID: 2100000, guid: a2d977979bcea3a47ba90c77d116efa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica266Mat
+    second: {fileID: 2100000, guid: e2c32575019f387498fb869ee7ec43a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica267Mat
+    second: {fileID: 2100000, guid: 90b33868dafd68641886a4559568a625, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica268Mat
+    second: {fileID: 2100000, guid: acbdf10776ce5e6468c3b0d533d2ab50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica269Mat
+    second: {fileID: 2100000, guid: 07f11add6c19a434783282a601048611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica270Mat
+    second: {fileID: 2100000, guid: 5b58a10d7f93cad4182baa8f8679ee38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica271Mat
+    second: {fileID: 2100000, guid: d8fc331080df6934985d07754b21fb4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica272Mat
+    second: {fileID: 2100000, guid: cc22eaa004aa91d4d8971597eb739abf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica273Mat
+    second: {fileID: 2100000, guid: f9f12d84d95aae342b0a88da77bc7fab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica274Mat
+    second: {fileID: 2100000, guid: 0ce711477dd11ae4eafba1ef3ada615e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica275Mat
+    second: {fileID: 2100000, guid: 56a1d08f7b1e2d24b82660ae89346ef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica276Mat
+    second: {fileID: 2100000, guid: e5e5610074ae9e54c960b0fc3b027612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica277Mat
+    second: {fileID: 2100000, guid: 20e38b2b9597cc143a3698360072ea1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica278Mat
+    second: {fileID: 2100000, guid: c385fdfa76a85df458441084fc9eed5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica279Mat
+    second: {fileID: 2100000, guid: 3bbc19149b902ea4b8f0cf41f30d8c76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica280Mat
+    second: {fileID: 2100000, guid: d55e07f8737f53e42ad0c32f46a6a05e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica281Mat
+    second: {fileID: 2100000, guid: db76d48a757df654999e12e45beb9b61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica282Mat
+    second: {fileID: 2100000, guid: d9de39fb15d5c684bbe3de229579806f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica283Mat
+    second: {fileID: 2100000, guid: da8900553e360724c8fbc36064fbd6e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica284Mat
+    second: {fileID: 2100000, guid: 0d6c98d39bff80a43bdc18e204600e11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica285Mat
+    second: {fileID: 2100000, guid: f4ada3505a1cf294aa68992afd871e85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica286Mat
+    second: {fileID: 2100000, guid: 48207f421208ac7478104549da6cc0fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica287Mat
+    second: {fileID: 2100000, guid: 30d4b029fdee8d844bdbedcfc02cd641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica288Mat
+    second: {fileID: 2100000, guid: 2a9fa6120d1866a4096b8906a599ced1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica289Mat
+    second: {fileID: 2100000, guid: 0864a2d8aa5a67d498aada2cc4ef55d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica290Mat
+    second: {fileID: 2100000, guid: acf6adadd96c66541b17eb9335c95288, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica291Mat
+    second: {fileID: 2100000, guid: 9532477d20ddada4584ddf07f8f7c09b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica292Mat
+    second: {fileID: 2100000, guid: 6d967adea6ebab042885c59bd63ddb23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica293Mat
+    second: {fileID: 2100000, guid: b226b0288039b8f429f4b2b74c8a6197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica294Mat
+    second: {fileID: 2100000, guid: 23b127e8550363247b435d35ef9cd155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica295Mat
+    second: {fileID: 2100000, guid: 339c31c33ffa3e94094de7be3cf6944f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica296Mat
+    second: {fileID: 2100000, guid: e4cfea0a2420afd4784d2023b4823534, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica297Mat
+    second: {fileID: 2100000, guid: a3e2edeaa0dafc64aa98cb4b1aa36b9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica298Mat
+    second: {fileID: 2100000, guid: 607e44182403db2419663847c99acb79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica299Mat
+    second: {fileID: 2100000, guid: d0ba2e3a45b315141b407caa51c4bb64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica300Mat
+    second: {fileID: 2100000, guid: 9bcd3744372194d4bac7d9fcf3484e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica301Mat
+    second: {fileID: 2100000, guid: 4b6d390717dbedb4ca076472d6fd3cc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica302Mat
+    second: {fileID: 2100000, guid: c4c11298cffd32743865a308fee6da04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica303Mat
+    second: {fileID: 2100000, guid: 7d6029e6bf092544d806357c8302f326, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica304Mat
+    second: {fileID: 2100000, guid: 31991d91c2ae9214383c0e7f077abf32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica305Mat
+    second: {fileID: 2100000, guid: f172084c3c0deda41a76edc82185530b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica306Mat
+    second: {fileID: 2100000, guid: 71b18ce3ae64ebd46977ff306c610450, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica307Mat
+    second: {fileID: 2100000, guid: d65fe14f574a0144b8cb0eb6d0bb0a79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica308Mat
+    second: {fileID: 2100000, guid: 3c4a26f4227dac342aaa1955791bf0a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica309Mat
+    second: {fileID: 2100000, guid: 4cbd4acf51b4033488b96dc418157c55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica310Mat
+    second: {fileID: 2100000, guid: 1e8466a87a97ace48a48246e514ef6b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica311Mat
+    second: {fileID: 2100000, guid: b23d8558dc253e4418907f6289610539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esferica312Mat
+    second: {fileID: 2100000, guid: abe1523905f9d6c49883a583a3053917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: luz_esfericaMat
+    second: {fileID: 2100000, guid: 95b378eb3ee61b5428e92e1b9563fa14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_011Mat
+    second: {fileID: 2100000, guid: 463fb18e813dda446921e6ed64a8103e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_012Mat
+    second: {fileID: 2100000, guid: c860b7a0007f68449b881610c7aba9b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_013Mat
+    second: {fileID: 2100000, guid: 13bf27d7585e8904190461e59737f363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_014Mat
+    second: {fileID: 2100000, guid: 7c9f7182d13fbb6469ae86c4d7c0ff56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_015Mat
+    second: {fileID: 2100000, guid: 50905bd9c9e403749acef4f6c090c8cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_016Mat
+    second: {fileID: 2100000, guid: 9944a677088335549881bd31ec564a95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_017Mat
+    second: {fileID: 2100000, guid: 71073ef2db9326d488413302e8b2722a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_018Mat
+    second: {fileID: 2100000, guid: e376f69825c30a24d9911581b905645f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_1Mat
+    second: {fileID: 2100000, guid: 67daa6c40db0dd74f8f49923b9d1bae7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: neon_2Mat
+    second: {fileID: 2100000, guid: 78b0fad8d960fae418dca6e0527b5ca8, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.05
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
