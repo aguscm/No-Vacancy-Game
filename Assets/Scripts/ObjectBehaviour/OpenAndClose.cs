@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class OpenAndClose : MonoBehaviour
 {
-    private Animation anim;
+    private Animator anim;
 
     public string animation1;
 
@@ -30,19 +30,18 @@ public class OpenAndClose : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
     }
 
     public void Open()
     {
-        anim = this.gameObject.GetComponent<Animation>();
-
         //Si tenemos las llaves y la puerta no está bloqueada
         if (!this.blocked)
         {
             if (this.opened == false)
             {
-                anim[animation1].speed = 1;
-                anim.Play (animation1);
+                //anim[animation1].speed = 1;
+                anim.Play ("Base Layer.OpenDoor", 0, 0.25f);
 
                 //Reproducimos el objeto audio asociado a la clase
                 if (soundEnter != null)
@@ -53,9 +52,9 @@ public class OpenAndClose : MonoBehaviour
             }
             else
             {
-                anim[animation1].speed = -1;
-                anim[animation1].time = anim[animation1].length;
-                anim.Play (animation1);
+                // anim[animation1].speed = -1;
+                // anim[animation1].time = anim[animation1].length;
+                 anim.Play ("Base Layer.OpenDoor", 0, 0.25f);
 
                 //Reproducimos el objeto audio asociado a la clase
                 if (soundClose != null)
