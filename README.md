@@ -9,3 +9,6 @@ The packages and assets from the Unity Asset Store are:
  - AllSky Free - 10 Sky / Skybox Set
  - Standard Assets (for Unity 2018.4)
  - UModeler - Model your World
+
+ Music:
+  - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license
