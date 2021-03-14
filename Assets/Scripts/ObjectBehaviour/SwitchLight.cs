@@ -5,10 +5,12 @@ using UnityEngine;
 public class SwitchLight : MonoBehaviour
 {
     public Light[] lights; //Array of lights
+    public bool blockLightAfterSwitch;
+    private bool blocked;
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
         foreach (Light light in lights) {
             light.GetComponent<Light>();
         }
@@ -22,9 +24,13 @@ public class SwitchLight : MonoBehaviour
 
     //Switch on & off the ligths in the array
     public void Switch() {
-        foreach (Light light in lights) {
+        if (!blocked) {
+            foreach (Light light in lights) {
             light.enabled = !light.enabled;
+            }
+        blocked = blockLightAfterSwitch;
         }
+
    }
     
 }

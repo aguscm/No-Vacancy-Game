@@ -33,6 +33,20 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             makeSound.Play();
         }
 
+        //Component clockHandController
+        var clockHandController = selection.GetComponent<ClockHandController>();
+        if (clockHandController != null)
+        {
+            clockHandController.rotate();
+        }
+
+        //Component DocumentViewerUI
+        var documentViewerUI = selection.GetComponent<DocumentViewerUI>();
+        if (documentViewerUI != null)
+        {
+            documentViewerUI.EnterViewer();
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();
