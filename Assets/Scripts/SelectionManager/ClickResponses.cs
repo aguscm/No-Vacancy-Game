@@ -47,6 +47,20 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             documentViewerUI.EnterViewer();
         }
 
+        //Component Pickable
+        var pickable = selection.GetComponent<Pickable>();
+        if (pickable != null)
+        {
+            pickable.pickUp();
+        }
+
+         //Component Pickable
+        var makeObjectPop = selection.GetComponent<MakeObjectPop>();
+        if (makeObjectPop != null)
+        {
+            makeObjectPop.pop();
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();

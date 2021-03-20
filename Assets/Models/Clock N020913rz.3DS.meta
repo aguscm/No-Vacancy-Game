@@ -3,7 +3,42 @@ guid: 675aa81fcb58113488ee4bfe8452fc77
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ',Black Nero'
+    second: {fileID: 2100000, guid: 109c17b9cfc07844e9f816b06c09fac4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ',Black Nero1'
+    second: {fileID: 2100000, guid: a9b525933f4e0694eb4416e3a2b342e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ',Black_'
+    second: {fileID: 2100000, guid: 753806b4d497a2c47938684361be098d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Crystall
+    second: {fileID: 2100000, guid: ef614af446e75c6499b0c55496cbf252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome go
+    second: {fileID: 2100000, guid: 5ca622aab88eb2847967bddc657ca32b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrome go1
+    second: {fileID: 2100000, guid: ebd867a5d14fd4c46a86f3d9d9aa7873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: w  birch
+    second: {fileID: 2100000, guid: cf2f0dc263da45545acf31d16d4334d2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
