@@ -6,7 +6,7 @@ public class HoverResponses : MonoBehaviour, IHoverResponse
     {
         //Component MaterialReveal
         var materialReveal = selection.GetComponent<MaterialReveal>();
-        if (materialReveal != null)
+        if (materialReveal != null && materialReveal.uvLight.on == true)
         {
             materialReveal.Reveal();
         }

@@ -17,11 +17,14 @@ public class MaterialReveal : MonoBehaviour
     {   
         GetComponent<Renderer>().enabled = true;
         uvLight.reveal = material;
+        uvLight.objectWithMaterial = this;
     }
 
     public void Unreveal()
     {
         GetComponent<Renderer>().enabled = false;
         uvLight.reveal = null;
+        uvLight.objectWithMaterial = null;
+
     }
 }
