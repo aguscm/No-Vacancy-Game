@@ -8,6 +8,7 @@ using UnityEngine;
 public class MakeObjectPop : MonoBehaviour
 {
     public GameObject[] objs;
+    public float delayToPop;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class MakeObjectPop : MonoBehaviour
 
     IEnumerator popCoroutine()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(delayToPop);
         foreach (GameObject obj in objs)
         {
             if (obj.activeSelf)

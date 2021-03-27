@@ -54,11 +54,18 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             pickable.pickUp();
         }
 
-         //Component Pickable
+        //Component Pickable
         var makeObjectPop = selection.GetComponent<MakeObjectPop>();
         if (makeObjectPop != null)
         {
             makeObjectPop.pop();
+        }
+
+        //Component Unlockdoor
+        var unlockDoor = selection.GetComponent<UnlockDoor>();
+        if (unlockDoor != null)
+        {
+            unlockDoor.Unlock();
         }
 
         //Component changeTag
