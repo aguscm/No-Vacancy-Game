@@ -61,6 +61,10 @@ public class DoorController : MonoBehaviour
                     m_AudioSource.Play();
                 }
             }
+        }else {
+            if (GetComponent<ShowDialog>()) {
+                GetComponent<ShowDialog>().appearDialog(textIfBlocked);
+            }
         }
     }
 
