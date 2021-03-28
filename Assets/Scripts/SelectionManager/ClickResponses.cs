@@ -68,6 +68,13 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             unlockDoor.Unlock();
         }
 
+        //Component showDialog
+        var showDialog = selection.GetComponent<ShowDialog>();
+        if (showDialog != null)
+        {
+            showDialog.appearDialogOnClick();
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();

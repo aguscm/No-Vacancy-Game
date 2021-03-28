@@ -33,6 +33,10 @@ public class CanvasDocumentViewerUI : MonoBehaviour
 
     private float movementFactor = 0.25f;
 
+    //Controlling canvas movement following the mouse
+
+    private const float DIVISION = 400.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +87,57 @@ public class CanvasDocumentViewerUI : MonoBehaviour
         {
             Resume();
         }
+
+        //Canvas moves with the movement of pointer
+        float width = Screen.width * rect.anchorMin.x;
+        float height = Screen.height * rect.anchorMin.y;
+
+        float xoffset = 0;
+        float yoffset = 0;
+
+        if (Screen.width > 1024)
+        {
+            float difference = Screen.width - 1024;
+            float percentage =
+                (Input.mousePosition.x / (float) Screen.width) * 100;
+            xoffset = (percentage * difference) / DIVISION;
+        }
+        if (Screen.height > 768)
+        {
+            float difference = Screen.height - 768;
+            float percentage =
+                (
+                (float)(Screen.height - Input.mousePosition.y) /
+                (float) Screen.height
+                ) *
+                100;
+            yoffset = (percentage * difference) / DIVISION;
+        }
+
+        if (Screen.width < 1024)
+        {
+            float difference = 1024 - Screen.width;
+            float percentage =
+                (Input.mousePosition.x / (float) Screen.width) * 100;
+            xoffset = -(percentage * difference) / DIVISION;
+        }
+
+        if (Screen.height < 768)
+        {
+            float difference = 768 - Screen.height;
+            float percentage =
+                (
+                (float)(Screen.height - Input.mousePosition.y) /
+                (float) Screen.height
+                ) *
+                100;
+            yoffset = -(percentage * difference) / DIVISION;
+        }
+
+        rect.anchoredPosition =
+            new Vector2((Input.mousePosition.x - width - xoffset) *
+                movementFactor,
+                (Input.mousePosition.y - height + yoffset) * movementFactor);
     }
 
     public void ShowImages(Image[] imagesToShow)
@@ -103,8 +158,7 @@ public class CanvasDocumentViewerUI : MonoBehaviour
         this.imagesToShow = imagesToShow;
         imgCounter = imagesToShow.Length;
         imagesToShow[nCurrentImage].GetComponent<Image>().enabled = true;
-       // Time.timeScale = 0;
-
+        // Time.timeScale = 0;
     }
 
     public void wipeScreen()
@@ -120,7 +174,7 @@ public class CanvasDocumentViewerUI : MonoBehaviour
     //Ends te DocumentViewer UI
     public void Resume()
     {
-       // Time.timeScale = 1;
+        // Time.timeScale = 1;
         selectionManager.SetActive(true);
         objBackground.SetActive(false);
         player.enabled = true;
