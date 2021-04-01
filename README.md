@@ -33,6 +33,7 @@ The packages and assets from the Unity Asset Store are:
 - Stalls: https://archive3d.net/?a=download&id=1f9d7865#
 - Rosace: https://archive3d.net/?a=download&id=528c1528
 - Sink: https://archive3d.net/?a=download&id=5d44571d
+- Cricket ball: https://archive3d.net/?a=download&id=12ae7b34
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
