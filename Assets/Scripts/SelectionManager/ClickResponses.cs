@@ -75,6 +75,13 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             showDialog.appearDialogOnClick();
         }
 
+        //Component sink
+        var sink = selection.GetComponent<Sink>();
+        if (sink != null)
+        {
+            sink.switchSink(true);
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();
