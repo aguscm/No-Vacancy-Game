@@ -34,12 +34,17 @@ The packages and assets from the Unity Asset Store are:
 - Rosace: https://archive3d.net/?a=download&id=528c1528
 - Sink: https://archive3d.net/?a=download&id=5d44571d
 - Cricket ball: https://archive3d.net/?a=download&id=12ae7b34
+- Rack backery: https://archive3d.net/?a=download&id=e335868f
+- Fridge: https://archive3d.net/?a=download&id=708fd09b
+- Stand (dining room): https://archive3d.net/?a=download&id=c89ed512
+- Lamp post: https://archive3d.net/?a=download&id=4cf8aa52
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
 - Blood: https://www.pngegg.com/en/png-bncbw
 - Roof: https://www.textures.com/download/RooftilesCeramic0021/2872
 - Concrete: https://www.textures.com/download/3DScans0599/137168
+- Concrete square pavement: https://www.textures.com/download/PBR0605/139079
 
 ## Music and sounds
 - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license
