@@ -50,3 +50,6 @@ The packages and assets from the Unity Asset Store are:
 - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license
 -  Switches: https://freesound.org/people/JPolito/sounds/391697/
 - Spotlight: https://freesound.org/people/reidmangan/sounds/49013/
+- Door Squeak: https://freesound.org/people/InspectorJ/sounds/346212/ 
+- Door open close: https://freesound.org/people/toddcircle/sounds/442351/
+- Metal bowl: https://freesound.org/people/Anthousai/sounds/405665/

@@ -15,6 +15,8 @@ public class ClockController : MonoBehaviour
     public Light[] lightsOff;
 
     private MakeSound sound;
+
+    public DoorController doorToUnlock;
     
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,9 @@ public class ClockController : MonoBehaviour
             activateMannequinScene();
             switchOffLights(); //Switch off the lights of the kitchen
             sound.Play();
+
+            //Unlocks the bathroom door
+            doorToUnlock.Unlock();
         }
     }
 
