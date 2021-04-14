@@ -82,6 +82,13 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             sink.switchSink(true);
         }
 
+        //Component Leak
+        var leak = selection.GetComponent<Leak>();
+        if (leak != null)
+        {
+            leak.Fix();
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();

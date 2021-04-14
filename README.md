@@ -38,6 +38,15 @@ The packages and assets from the Unity Asset Store are:
 - Fridge: https://archive3d.net/?a=download&id=708fd09b
 - Stand (dining room): https://archive3d.net/?a=download&id=c89ed512
 - Lamp post: https://archive3d.net/?a=download&id=4cf8aa52
+- Cart (trolley): https://archive3d.net/?a=download&id=c5eb3d5d 
+- Boxes: https://archive3d.net/?a=download&id=4e138f31
+- Armchair (big bag): https://archive3d.net/?a=download&id=d188662d 
+- Set cleaning products: https://archive3d.net/?a=download&id=57bb7b5f
+- Office chair: https://archive3d.net/?a=download&id=f40b99fd 
+- Old PC: https://archive3d.net/?a=download&id=ad81d529 
+- Files: https://archive3d.net/?a=download&id=148b40d7 
+- Cornice: https://archive3d.net/?a=download&id=0fea3843 
+- Sconce: https://archive3d.net/?a=download&id=e3317fc4 
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
@@ -45,6 +54,9 @@ The packages and assets from the Unity Asset Store are:
 - Roof: https://www.textures.com/download/RooftilesCeramic0021/2872
 - Concrete: https://www.textures.com/download/3DScans0599/137168
 - Concrete square pavement: https://www.textures.com/download/PBR0605/139079
+- City building facade: https://www.textures.com/download/PBR0354/137037 
+- Plain Brick Wall: https://www.textures.com/download/3DScans0753/140560 
+- Wooden ornament panel: https://www.textures.com/download/PBR0578/138827
 
 ## Music and sounds
 - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license
