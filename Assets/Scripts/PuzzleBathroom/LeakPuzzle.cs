@@ -6,7 +6,7 @@ public class LeakPuzzle : MonoBehaviour
 {
     public int threshold = 4;
     public int currentCount = 0;
-    public bool complete;
+    public bool resolved;
     private AudioSource m_AudioSource;
     public GameObject ball;
     // Start is called before the first frame update
@@ -24,11 +24,11 @@ public class LeakPuzzle : MonoBehaviour
     public void plusOne() {
         currentCount++;
         if (currentCount >= threshold) {
-            complete = true;
+            resolved = true;
         }
 
-        //If the puzzle is complete, the animation ball starts
-        if (complete) {
+        //If the puzzle is resolved, the animation ball starts
+        if (resolved) {
             ball.SetActive(true);
         }
     }
@@ -39,6 +39,10 @@ public class LeakPuzzle : MonoBehaviour
 
     public void stopSound() {
         m_AudioSource.Stop();
+    }
+
+    public bool getIfResolved() {
+        return resolved;
     }
 
     

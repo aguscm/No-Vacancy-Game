@@ -36,4 +36,8 @@ public class BathroomPuzzleController : MonoBehaviour
             sinkPuzzleResolved = false;
         }
     }
+
+    public bool getIfResolved() {
+        return sinkPuzzleResolved;
+    }
 }

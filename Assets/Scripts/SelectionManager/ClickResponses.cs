@@ -89,6 +89,13 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             leak.Fix();
         }
 
+        //Component Leak
+        var valveController = selection.GetComponent<ValveController>();
+        if (valveController != null)
+        {
+            valveController.Turn();
+        }
+
         //Component changeTag
         //Best if this script is executed in the end
         var changeTag = selection.GetComponent<ChangeTag>();
