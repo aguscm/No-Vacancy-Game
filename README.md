@@ -47,6 +47,9 @@ The packages and assets from the Unity Asset Store are:
 - Files: https://archive3d.net/?a=download&id=148b40d7 
 - Cornice: https://archive3d.net/?a=download&id=0fea3843 
 - Sconce: https://archive3d.net/?a=download&id=e3317fc4 
+- Pipes: https://www.turbosquid.com/es/3d-models/old-pipe-max-free/716859
+- Valve: https://www.turbosquid.com/es/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=716859&intType=3 
+- Metallic door: https://www.turbosquid.com/3d-models/free-3ds-model-door-ready/764583 
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
@@ -67,3 +70,4 @@ The packages and assets from the Unity Asset Store are:
 - Metal bowl: https://freesound.org/people/Anthousai/sounds/405665/
 - Wrench: https://freesound.org/people/YourFriendJesse/sounds/131200/ by YourFriendJesse
 - Ball falling: https://freesound.org/people/nektaria909/sounds/393767/
+- Valve turning: https://freesound.org/people/GoodListener/sounds/322453/ by GoodListener

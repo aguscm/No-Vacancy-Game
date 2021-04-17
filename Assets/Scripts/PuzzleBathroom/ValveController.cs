@@ -20,6 +20,13 @@ public class ValveController : MonoBehaviour
 
     private AudioSource m_AudioSource;
 
+    public GameObject mannequinScene;
+
+    public Light[] lightsOff;
+
+    public AudioClip soundSpotlight;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +36,7 @@ public class ValveController : MonoBehaviour
         {
             m_AudioSource = GetComponent<AudioSource>();
         }
+
     }
 
     // Update is called once per frame
@@ -44,12 +52,13 @@ public class ValveController : MonoBehaviour
             anim.SetBool(boolAnim, true);
             m_AudioSource.Play();
             this.gameObject.tag = "Untagged";
-        }else {
-        //If not
-        showDialog.appearDialog (textIfCant);
+            StartCoroutine("activateScene");
         }
-
-
+        else
+        {
+            //If not
+            showDialog.appearDialog (textIfCant);
+        }
     }
 
     public void checkPreviousPuzzles()
@@ -58,5 +67,27 @@ public class ValveController : MonoBehaviour
         {
             canBeTurned = true;
         }
+    }
+
+    public void activateMannequinScene()
+    {
+        mannequinScene.SetActive(true);
+    }
+
+    private void switchOffLights()
+    {
+        foreach (Light light in lightsOff)
+        {
+            light.enabled = !light.enabled;
+        }
+    }
+
+    IEnumerator activateScene() {
+        yield return new WaitForSeconds(2f);
+        activateMannequinScene();
+        switchOffLights();
+
+        m_AudioSource.clip = soundSpotlight;
+        m_AudioSource.Play();
     }
 }
