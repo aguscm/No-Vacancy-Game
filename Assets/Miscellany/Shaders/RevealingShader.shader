@@ -43,6 +43,7 @@ Shader "Custom/Revealing Shader" {
 		float3 direction = normalize(_LightPosition - IN.worldPos);
 		float scale = dot(direction, _LightDirection);
 		float strength = scale - cos(_LightAngle * (3.14 / 360.0));
+		//float strength = scale*_StrengthScalar - cos(_LightAngle * (3.14 / 360.0));
 		strength = min(max(strength * _StrengthScalar, 0), 1);
 		//strength = min(max(strength * _StrengthScalar * -direction, 0), 1);
 		// Albedo comes from a texture tinted by color
@@ -53,6 +54,7 @@ Shader "Custom/Revealing Shader" {
 		o.Metallic = _Metallic;
 		o.Smoothness = _Glossiness;
 		o.Alpha = strength * c.a;
+
 	}
 	ENDCG
 	}

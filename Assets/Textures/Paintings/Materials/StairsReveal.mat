@@ -77,9 +77,10 @@ Material:
     - _StrengthScalar: 20
     - _UVSec: 0
     - _ZWrite: 1
+    - strengthh: 0
     m_Colors:
     - _Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightDirection: {r: -0.41996843, g: -0.14089416, b: 0.8965353, a: 0}
-    - _LightPosition: {r: 140.76884, g: 5.237798, b: 72.48142, a: 0}
+    - _LightDirection: {r: -0.9260852, g: -0.23853324, b: 0.29234982, a: 0}
+    - _LightPosition: {r: 139.50502, g: 5.3099995, b: 68.7283, a: 0}
   m_BuildTextureStacks: []

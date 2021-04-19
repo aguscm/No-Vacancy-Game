@@ -34,6 +34,7 @@ public class UVLight : MonoBehaviour
             reveal.SetVector("_LightPosition", light.transform.position);
             reveal.SetVector("_LightDirection", -light.transform.forward);
             reveal.SetFloat("_LightAngle", light.spotAngle);
+         
         }
     }
 

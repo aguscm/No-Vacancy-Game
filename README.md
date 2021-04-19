@@ -1,5 +1,5 @@
 # Description
-**No Vacancy** is an adventure/horror game made with Unity
+**No Vacancy Tonight** is an adventure/horror game made with Unity
 
 # Dependencies
 
@@ -16,14 +16,14 @@ The packages and assets from the Unity Asset Store are:
 - 3D Warehouse models: https://3dwarehouse.sketchup.com/tos/#license
 - Reception Desk: https://3dwarehouse.sketchup.com/model/b12776ed245dd80a5588a2543ef0b0b4/Reception-Desk?tab=general
 - Blackboard: https://3dwarehouse.sketchup.com/model/f85e191a-a405-4b6f-9ed5-9ca5c3cbc91a/WOOLI-BOARD-LEFT?tab=general
-- Mannequin 3D model (sat): https://archive3d.net/?a=download&id=13697406
-- Mannequin 3D model (idle): https://archive3d.net/?a=download&id=89cf3bc2
-- Clock 3D model: https://archive3d.net/?a=download&id=2c73171a
-- Bed 3D model: https://archive3d.net/?a=download&id=66c93a1d
-- Bag 3D model: https://archive3d.net/?a=download&id=563b814e
-- Wardrobe 3D model: https://archive3d.net/?a=download&id=a89a15ea
-- Bedside table 3D model: https://archive3d.net/?a=download&id=6b633c61
-- Phone 3D model: https://archive3d.net/?a=download&id=3b12d994
+- Mannequin (sat): https://archive3d.net/?a=download&id=13697406
+- Mannequin (idle): https://archive3d.net/?a=download&id=89cf3bc2
+- Clock: https://archive3d.net/?a=download&id=2c73171a
+- Bed: https://archive3d.net/?a=download&id=66c93a1d
+- Bag: https://archive3d.net/?a=download&id=563b814e
+- Wardrobe: https://archive3d.net/?a=download&id=a89a15ea
+- Bedside table: https://archive3d.net/?a=download&id=6b633c61
+- Phone: https://archive3d.net/?a=download&id=3b12d994
 - Curtain on holder: https://archive3d.net/?a=download&id=e7d690c8
 - Luster: https://archive3d.net/?a=download&id=3655279a
 - Switch: https://archive3d.net/?a=download&id=ac725521
@@ -50,6 +50,15 @@ The packages and assets from the Unity Asset Store are:
 - Pipes: https://www.turbosquid.com/es/3d-models/old-pipe-max-free/716859
 - Valve: https://www.turbosquid.com/es/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=716859&intType=3 
 - Metallic door: https://www.turbosquid.com/3d-models/free-3ds-model-door-ready/764583 
+- Pallet: https://www.turbosquid.com/3d-models/pallet-max-free/934226
+- Vent (heater): https://www.turbosquid.com/3d-models/substance-mixer-03-3d-model-1507652
+- Bureau: https://free3d.com/es/modelo-3d/dresser-old-65315.html 
+- Shoes: https://archive3d.net/?a=download&id=47d271f6
+- Dress: https://archive3d.net/?a=download&id=c578d6d9
+- Wardrobe 2: https://3dwarehouse.sketchup.com/model/599f140d-e3de-4ad8-afc2-4711a86d0d5e/Oakland-Wardrobe
+- Set of clothes: https://archive3d.net/?a=download&id=cb6a40d9
+- Flashlight: https://free3d.com/es/modelo-3d/fury-flashlight-22759.html
+- Skeleton: https://archive3d.net/?a=download&id=8d42cbfe 
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
@@ -60,6 +69,8 @@ The packages and assets from the Unity Asset Store are:
 - City building facade: https://www.textures.com/download/PBR0354/137037 
 - Plain Brick Wall: https://www.textures.com/download/3DScans0753/140560 
 - Wooden ornament panel: https://www.textures.com/download/PBR0578/138827
+- Image old family: https://pixabay.com/es/photos/foto-edad-durante-la-guerra-1942-90057/
+- Image dinning table: https://pixabay.com/es/photos/ajuste-de-lugar-cena-2110245/
 
 ## Music and sounds
 - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license
