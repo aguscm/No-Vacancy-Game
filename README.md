@@ -71,6 +71,21 @@ The packages and assets from the Unity Asset Store are:
 - Wooden ornament panel: https://www.textures.com/download/PBR0578/138827
 - Image old family: https://pixabay.com/es/photos/foto-edad-durante-la-guerra-1942-90057/
 - Image dinning table: https://pixabay.com/es/photos/ajuste-de-lugar-cena-2110245/
+- Image painting: https://pixabay.com/es/photos/islandia-casa-de-refugio-4524112/
+- Image painting: https://pixabay.com/es/photos/torre-techo-edificios-casas-ciudad-5475850/
+- Image painting: https://pixabay.com/es/photos/cielo-nubes-azul-formas-clima-5907605/
+- Image painting: https://pixabay.com/es/photos/leones-safari-predator-animales-5220431/
+- Image painting: https://pixabay.com/es/photos/gamos-ciervo-doe-hirsch-silvestre-6115404/
+- Image painting: https://pixabay.com/es/photos/paisaje-faro-costa-orilla-del-mar-5562780/
+- Image painting: https://pixabay.com/es/photos/crocus-p%C3%BArpura-flores-p%C3%A9talos-6039312/
+- Image painting: https://pixabay.com/es/photos/ni%C3%B1os-foto-vieja-edad-cincuenta-1335855/
+- Image painting: https://pixabay.com/es/photos/el-interior-de-la-casa-de-vacaciones-4429268/
+- Image painting: https://pixabay.com/es/photos/retro-vendimia-viejo-ni%C3%B1as-1579660/ 
+- Image painting: https://pixabay.com/es/photos/renault-juvaquatre-coche-oxidado-1661009/ 
+- Image painting: https://pixabay.com/es/photos/lugar-perdido-horror-1748158/ 
+- Image painting: https://pixabay.com/es/photos/par%C3%ADs-montmartre-camino-pavimento-3193674/ 
+
+
 
 ## Music and sounds
 - Lithium by Kevin MacLeod. Link: https://incompetech.filmmusic.io/song/3983-lithium. License: https://filmmusic.io/standard-license

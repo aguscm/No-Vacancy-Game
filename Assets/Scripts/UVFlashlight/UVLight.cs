@@ -15,10 +15,13 @@ public class UVLight : MonoBehaviour
 
     public bool on;
 
+    private AudioSource m_AudioSource;
+
     // Start is called before the first frame update
     void Start()
     {
         light = GetComponent<Light>();
+        m_AudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,10 +43,12 @@ public class UVLight : MonoBehaviour
 
     void Switch()
     {
+        m_AudioSource.Play();
         on = !on;
         if (on)
         {
             light.enabled = true;
+            
         }
         else
         {
