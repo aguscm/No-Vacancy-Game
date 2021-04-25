@@ -97,3 +97,8 @@ The packages and assets from the Unity Asset Store are:
 - Wrench: https://freesound.org/people/YourFriendJesse/sounds/131200/ by YourFriendJesse
 - Ball falling: https://freesound.org/people/nektaria909/sounds/393767/
 - Valve turning: https://freesound.org/people/GoodListener/sounds/322453/ by GoodListener
+- Beep: https://freesound.org/people/anthonychartier2020/sounds/560188/ by anthonychartier2020
+- Beep Success: https://freesound.org/people/pan14/sounds/263133/ by pan14
+- Beep Failure: https://freesound.org/people/Raclure/sounds/483598/ by Raclure
+- Scrath wood: https://freesound.org/people/JanKoehl/sounds/85594/ by JanKoehl
+- Safe code open: https://freesound.org/people/john721/sounds/202717/ by john721
