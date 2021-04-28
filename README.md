@@ -59,6 +59,10 @@ The packages and assets from the Unity Asset Store are:
 - Set of clothes: https://archive3d.net/?a=download&id=cb6a40d9
 - Flashlight: https://free3d.com/es/modelo-3d/fury-flashlight-22759.html
 - Skeleton: https://archive3d.net/?a=download&id=8d42cbfe 
+- Fence: https://archive3d.net/?a=download&id=59238033
+- Indian God: https://archive3d.net/?a=download&id=878e91ef
+- Picture flowers: https://archive3d.net/?a=download&id=8c725d23
+- Chest: https://archive3d.net/?a=download&id=72ff5c23
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
