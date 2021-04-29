@@ -5,10 +5,17 @@ using UnityEngine;
 public class LeakPuzzle : MonoBehaviour
 {
     public int threshold = 4;
+
     public int currentCount = 0;
+
     public bool resolved;
+
     private AudioSource m_AudioSource;
+
     public GameObject ball;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,34 +25,32 @@ public class LeakPuzzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
-    public void plusOne() {
+    public void plusOne()
+    {
         currentCount++;
-        if (currentCount >= threshold) {
+        if (currentCount >= threshold)
+        {
             resolved = true;
-        }
-
-        //If the puzzle is resolved, the animation ball starts
-        if (resolved) {
             ball.SetActive(true);
         }
     }
 
-    public void playSound() {
+    public void playSound()
+    {
         m_AudioSource.Play();
     }
 
-    public void stopSound() {
+    public void stopSound()
+    {
         m_AudioSource.Stop();
     }
 
-    public bool getIfResolved() {
+    public bool getIfResolved()
+    {
         return resolved;
     }
-
-    
 
 
 }

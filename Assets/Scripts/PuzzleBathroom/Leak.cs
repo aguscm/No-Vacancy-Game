@@ -29,6 +29,7 @@ public class Leak : MonoBehaviour
         //If wrench object is active
         if (wrench)
         {
+
             //If the animation has stopped, stopts the particles and sets the wrench object to inactive
             if (
                 wrench
@@ -58,6 +59,7 @@ public class Leak : MonoBehaviour
         //Set the wrench object to active state, with automatically activates its animator
         puzzle.playSound();
         player.enabled = false; //Stops the player movement
+        this.gameObject.tag = "Untagged"; //Changes its tag
         wrench.SetActive(true);
 
         StartCoroutine("plusOne");
