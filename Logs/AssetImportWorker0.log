@@ -818,3 +818,136 @@ System memory in use after: 127.6 MB.
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2209.
 Total: 2.204600 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.417900 ms  DeleteObjects: 0.591200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1746.604183 seconds.
+  path: Assets/Textures/TV.renderTexture
+  artifactKey: Guid(4e3435c486cf2004e806416ff84d5e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/TV.renderTexture using Guid(4e3435c486cf2004e806416ff84d5e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede6ba99bba84964aae3dca0dab4efd') in 0.070404 seconds
+  Import took 0.077777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2216.
+Total: 2.859300 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.802300 ms  DeleteObjects: 0.794500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 595.750178 seconds.
+  path: Assets/Textures/SecurityCam.renderTexture
+  artifactKey: Guid(4e3435c486cf2004e806416ff84d5e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/SecurityCam.renderTexture using Guid(4e3435c486cf2004e806416ff84d5e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a655a2189b5a3e50dbf83f3015cd50a') in 0.146426 seconds
+  Import took 0.154434 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2218.
+Total: 2.103800 ms (FindLiveObjects: 0.155300 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.317900 ms  DeleteObjects: 0.581200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.0 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2220.
+Total: 2.354800 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.565500 ms  DeleteObjects: 0.561900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1057.653517 seconds.
+  path: Assets/Models/Camera CCTV N200719.3ds
+  artifactKey: Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Camera CCTV N200719.3ds using Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a72939e098bfd237d06f2b4d033794') in 0.187487 seconds
+  Import took 0.202120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.012429 seconds.
+  path: Assets/Models/Camera CCTV N200719.3ds
+  artifactKey: Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Camera CCTV N200719.3ds using Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ab4bca7e3af669b2001e6e271d41eb') in 0.072840 seconds
+  Import took 0.080846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.752189 seconds.
+  path: Assets/Models/Camera CCTV N200719.3ds
+  artifactKey: Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Camera CCTV N200719.3ds using Guid(6d13574dec40bc84aa7682a8770e6aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46d77e5265517d4d52218dd0b676492') in 0.075504 seconds
+  Import took 0.082526 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.5 MB.
+System memory in use after: 131.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 2.195100 ms (FindLiveObjects: 0.167600 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.416200 ms  DeleteObjects: 0.559500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

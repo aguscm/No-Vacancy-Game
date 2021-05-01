@@ -63,6 +63,7 @@ The packages and assets from the Unity Asset Store are:
 - Indian God: https://archive3d.net/?a=download&id=878e91ef
 - Picture flowers: https://archive3d.net/?a=download&id=8c725d23
 - Chest: https://archive3d.net/?a=download&id=72ff5c23
+- Security camera: https://archive3d.net/?a=download&id=e0197c97 
 
 ## External textures 
 - Bricks: https://www.textures.com/download/3DScans0057/127577
