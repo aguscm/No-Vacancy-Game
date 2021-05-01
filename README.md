@@ -107,3 +107,4 @@ The packages and assets from the Unity Asset Store are:
 - Beep Failure: https://freesound.org/people/Raclure/sounds/483598/ by Raclure
 - Scrath wood: https://freesound.org/people/JanKoehl/sounds/85594/ by JanKoehl
 - Safe code open: https://freesound.org/people/john721/sounds/202717/ by john721
+- Clang: https://freesound.org/people/editor_adp/sounds/198115/

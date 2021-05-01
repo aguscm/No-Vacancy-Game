@@ -10,6 +10,8 @@ public class Blackboard : MonoBehaviour
 
     public bool isPuzzleBeaten;
 
+    private AudioSource m_audioSource;
+
     [Space(10)]
     [Header("Interaction with External Objects")]
     public GameObject newspapersToActivate;
@@ -39,6 +41,7 @@ public class Blackboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        m_audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -73,6 +76,7 @@ public class Blackboard : MonoBehaviour
         if (checkIfWin())
         {
             newspapersToActivate.SetActive(true);
+            m_audioSource.Play();
         }
     }
 
