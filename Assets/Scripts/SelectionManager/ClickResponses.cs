@@ -11,9 +11,17 @@ public class ClickResponses : MonoBehaviour, IClickResponse
             doorController.Interact();
         }
 
+        // //Component BlackBoardPuzzle
+        // var blackBoardPuzzlePiece =
+        //     selection.GetComponent<BlackboardPuzzlePiece>();
+        // if (blackBoardPuzzlePiece != null)
+        // {
+        //     blackBoardPuzzlePiece.onClick();
+        // }
+
         //Component BlackBoardPuzzle
         var blackBoardPuzzlePiece =
-            selection.GetComponent<BlackboardPuzzlePiece>();
+            selection.GetComponent<BlackboardPiece>();
         if (blackBoardPuzzlePiece != null)
         {
             blackBoardPuzzlePiece.onClick();
