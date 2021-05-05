@@ -108,3 +108,6 @@ The packages and assets from the Unity Asset Store are:
 - Scrath wood: https://freesound.org/people/JanKoehl/sounds/85594/ by JanKoehl
 - Safe code open: https://freesound.org/people/john721/sounds/202717/ by john721
 - Clang: https://freesound.org/people/editor_adp/sounds/198115/
+- Electric whoosh:https://freesound.org/people/HadaHector/sounds/446383/ by HadaHector
+- Vibration short whoosh: https://freesound.org/people/orginaljun/sounds/402031/ by originaljun
+- Pop: https://freesound.org/people/kwahmah_02/sounds/260614/ by kwahmah_02

@@ -41,6 +41,7 @@ public class CanvasDocumentViewerUI : MonoBehaviour
     void Start()
     {
         rect = GetComponent<RectTransform>();
+        scale = minScale;
     }
 
     // Update is called once per frame
