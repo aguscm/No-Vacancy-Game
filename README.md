@@ -89,6 +89,7 @@ The packages and assets from the Unity Asset Store are:
 - Image painting: https://pixabay.com/es/photos/renault-juvaquatre-coche-oxidado-1661009/ 
 - Image painting: https://pixabay.com/es/photos/lugar-perdido-horror-1748158/ 
 - Image painting: https://pixabay.com/es/photos/par%C3%ADs-montmartre-camino-pavimento-3193674/ 
+- Wood wall paneling Trim: https://www.textures.com/download/PBR0575/138822
 
 
 
