@@ -82,6 +82,15 @@ public class Blackboard : MonoBehaviour
 
     public void changeMannequinColors()
     {
+
+        //At first, set all mannequins with its default color
+        mannequinLeftEnd.material = materialNeutral;
+        mannequinMiddleLeft.material = materialNeutral;
+        mannequinMiddle.material = materialNeutral;
+        mannequinMiddleRight.material = materialNeutral;
+        mannequinRightEnd.material = materialNeutral;
+
+        //Set set if the position and color is set and changes its material
         for (int i = 0; i < positionPieces.Length; i++)
         {
             Renderer mannequin = null;
@@ -104,6 +113,7 @@ public class Blackboard : MonoBehaviour
                     mannequin = mannequinRightEnd;
                     break;
                 default:
+                    mannequin = null;
                     break;
             }
 

@@ -46,6 +46,7 @@ public class ValveController : MonoBehaviour
 
     public void Turn()
     {
+        checkPreviousPuzzles();
         //If previous puzzles resolved
         if (canBeTurned == true)
         {
