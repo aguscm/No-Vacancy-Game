@@ -47,6 +47,9 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void GoToMainMenu() {
+        Cursor.visible = true;
+        Screen.lockCursor = false;
         SceneManager.LoadScene("MainMenu");
+
     }
 }

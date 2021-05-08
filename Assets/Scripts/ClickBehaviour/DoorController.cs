@@ -10,6 +10,8 @@ public class DoorController : MonoBehaviour
 
     public bool isBlocked;
 
+    public bool beginOpened;
+
     private bool isOpen;
 
     public string textIfBlocked;
@@ -30,6 +32,11 @@ public class DoorController : MonoBehaviour
         {
             m_AudioSource = GetComponent<AudioSource>();
         }
+        if (beginOpened) {
+            isBlocked = false;
+            Interact();
+
+        }
     }
 
     // Update is called once per frame
@@ -44,7 +51,7 @@ public class DoorController : MonoBehaviour
             if (!isOpen)
             {
                 Open();
-                isOpen = true;
+                
                 if (m_AudioSource)
                 {
                     m_AudioSource.clip = m_OpenSound;
@@ -54,7 +61,7 @@ public class DoorController : MonoBehaviour
             else
             {
                 Close();
-                isOpen = false;
+                
                 if (m_AudioSource)
                 {
                     m_AudioSource.clip = m_CloseSound;
@@ -71,11 +78,13 @@ public class DoorController : MonoBehaviour
     private void Open()
     {
         anim.SetBool(boolAnim, true);
+        isOpen = true;
     }
 
     private void Close()
     {
         anim.SetBool(boolAnim, false);
+        isOpen = false;
     }
 
     public void Unlock() {
