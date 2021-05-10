@@ -37,7 +37,7 @@ public class DialogManagerUI : MonoBehaviour
         canvasUI.SetActive(false);
     }
 
-    public void showText(string text, int secondsToFade)
+    public void showText(string text, float secondsToFade)
     {
         timeToFade = secondsToFade;
         realTime = 0;

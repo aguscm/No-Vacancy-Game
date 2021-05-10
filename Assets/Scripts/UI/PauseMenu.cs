@@ -36,6 +36,7 @@ public class PauseMenu : MonoBehaviour
         player.enabled = false;
         Cursor.visible = true;
         Screen.lockCursor = false;
+        Time.timeScale = 0;
     }
 
     public void closePauseMenu() {
@@ -44,11 +45,10 @@ public class PauseMenu : MonoBehaviour
         player.enabled = true;
         Cursor.visible = false;
         Screen.lockCursor = true;
+        Time.timeScale = 1;
     }
 
     public void GoToMainMenu() {
-        Cursor.visible = true;
-        Screen.lockCursor = false;
         SceneManager.LoadScene("MainMenu");
 
     }

@@ -41,7 +41,7 @@ public class CanvasDocumentViewerUI : MonoBehaviour
     void Start()
     {
         rect = GetComponent<RectTransform>();
-        scale = minScale;
+        scale = minScale*3;
     }
 
     // Update is called once per frame
@@ -144,8 +144,9 @@ public class CanvasDocumentViewerUI : MonoBehaviour
     public void ShowImages(Image[] imagesToShow)
     {
         //Block the movement of the player
-        Cursor.visible = true;
+        
         Screen.lockCursor = false;
+        Cursor.visible = false;
         player.enabled = false;
         selectionManager.SetActive(false);
 
@@ -180,7 +181,7 @@ public class CanvasDocumentViewerUI : MonoBehaviour
         objBackground.SetActive(false);
         player.enabled = true;
 
-        Cursor.visible = false;
+        //Cursor.visible = false;
         Screen.lockCursor = true;
         this.gameObject.SetActive(false);
     }
