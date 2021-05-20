@@ -12,6 +12,8 @@ public class Blackboard : MonoBehaviour
 
     private AudioSource m_audioSource;
 
+    public DoorController finalDoor;
+
     [Space(10)]
     [Header("Interaction with External Objects")]
     public GameObject newspapersToActivate;
@@ -75,8 +77,10 @@ public class Blackboard : MonoBehaviour
         changeMannequinColors();
         if (checkIfWin())
         {
+            isPuzzleBeaten = true;
             newspapersToActivate.SetActive(true);
             m_audioSource.Play();
+            finalDoor.Unlock();
         }
     }
 
